@@ -13,6 +13,8 @@ const ExpenseItem = ({id, description, amount, date}) => {
     });
   }
 
+  console.log('4');
+
   return (
     <Pressable
       onPress={expensePressHandler}
